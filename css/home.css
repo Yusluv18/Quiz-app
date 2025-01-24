@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/phyco.webp);
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;/* Also centers vertically if needed */
+    height: 100vh;
+
+}
+.heading{
+    color: purple;
+    background-color:rgba(255, 255, 255, 0.7);
+    display: block;
+    align-items: center;
+    width: 70vh;
+    height: 80vh;
+    cursor: pointer;
+
+}
+
+.climax{
+    color: #F39C12;
+    margin-left: 7vw;
+    margin-top: 15vh;
+}
+.home{
+    margin-left: 9vw;
+}
+.jam{
+    margin-left: 2vw;
+}
+.est{
+    margin-left: 8vw;
+}
+.rth{
+    margin-left: 9vw; 
+}
+.clima{
+    margin-left: 5vw;
+}
+#btn{
+    float: right;
+    margin-top: 12vh;
+    width: 5vw;
+    color: white;
+    background-color: #F39C12;
+    border: none;
+    height: 5vh;
+    font-size: medium;
+    cursor: pointer;
+}
+

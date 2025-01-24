@@ -1,0 +1,110 @@
+    Quiz Application with Timer and Animations
+This project is a simple Quiz Application built using HTML, CSS, and jQuery. The application includes the following features:
+
+A set of questions displayed one at a time.
+Timer functionality for each question.
+Star rating system that appears after a user interacts with the options for a question.
+Smooth animations for transitioning between questions and showing elements.
+
+## Features:
+
+- Question Navigation:
+Only one question is displayed at a time.
+After answering a question or when the timer ends, the next question is displayed with a sliding animation.
+
+
+- Timer:
+A 10-second countdown timer for each question.
+When the timer runs out, the quiz automatically transitions to the next question.
+Interactive 
+
+
+- Star Rating:
+Stars for rating appear only after an option is selected for the current question.
+The star rating is reset when moving to the next question.
+
+
+- Smooth Animations:
+Questions slide in and out for a better user experience.
+Stars fade in dynamically when triggered.
+
+
+
+## Technologies Used
+
+- HTML: For structuring the quiz layout and elements.
+- CSS: For styling the quiz application and creating a visually appealing interface.
+- jQuery: For adding interactivity, handling animations, and controlling the timer and transitions between questions.
+
+
+## How to Use
+Download or Clone the Repository:
+bash
+Copy
+Edit
+git clone https://github.com/your-username/quiz-app.git
+Open the Application:
+
+Navigate to the folder where the project is saved.
+Open the index.html file in any modern web browser.
+Interact with the Quiz:
+
+Answer each question by clicking on the buttons inside the options.
+The star rating will appear after interacting with the options.
+The quiz automatically transitions to the next question after the timer ends or when you answer the question.
+File Structure
+graphql
+Copy
+Edit
+📂 quiz-app/
+├── 📄 index.html          # Main HTML file for the quiz
+├── 📂 css/
+│   └── 📄 style.css       # Stylesheet for the application
+├── 📂 js/
+│   └── 📄 script.js       # Main JavaScript file with jQuery
+├── 📂 assets/
+│   └── 📂 images/         # Optional folder for images
+└── 📄 README.md           # Documentation
+Code Explanation
+Key Sections of the Code:
+HTML:
+
+Contains <section> elements for each question.
+Each section includes question text, options, and a hidden <div> for the star rating.
+CSS:
+
+Used for styling questions, options, timer, and stars.
+Implements animations like sliding and fading.
+JavaScript (jQuery):
+
+Handles dynamic interactions, such as:
+Sliding animations for questions.
+Countdown timer logic.
+Dynamic display of star ratings.
+Customization
+You can customize the quiz by:
+
+Adding Questions:
+
+Add more <section> elements with appropriate content for new questions in the index.html file.
+Adjusting Timer:
+
+Modify the timer duration by changing the timeLeft variable in the script.js file.
+Styling:
+
+Change the quiz appearance by editing the style.css file.
+Contributing
+Contributions are welcome! If you'd like to improve the app or add new features, feel free to:
+
+Fork the repository.
+Create a new branch for your changes.
+Submit a pull request with a description of your modifications.
+Demo
+Include screenshots or a GIF of the application to demonstrate its functionality.
+
+License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it as needed.
+
+Acknowledgments
+jQuery Documentation
+MDN Web Docs

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Js/jquery-3.7.1.js"></script>
+    <script src="Js/script.js"></script>
+    <script src="https://kit.fontawesome.com/cd1e3326a4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="quiz.css">
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>What is your personality</h1>
+        <p id="timer">Time left: 10 secs</p>
+    </div>
+
+    <div>
+        <section class="one">
+            <h3>Question 1: When you're stress free, Would you rather</h3>
+            <div class="options">
+                <img src="img/autumn-day.jpeg" alt="#">
+                <img src="img/woman-shopping.png" alt="#">
+                <div class ="stargroup">
+                    <div class="stars"><i class="fa-regular fa-star star"></i><i class="fa-regular fa-star star"></i><i class="fa-regular fa-star star"></i></i><i class="fa-regular fa-star star"></i></div>
+                    <div class="stars" id="ars"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></div>
+                </div>
+                <button type="button" value="4"    class="option1">Take a walk in the park</button>
+                <button type="button" value="2"   class="option2"> Go for shopping</button>
+            </div>
+        </section>
+
+        <section class="two">
+            <h3>Question 2: Which one defines you more </h3>
+            <div class="options">
+                <img src="img/risk-taker.avif" alt="#">
+                <img src="img/play safe.jpg" alt="#">
+                <div class ="stargroup">
+                    <div class="stars">
+                        <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i></i><i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <button type="button" data-value="5"   class="option1">A risk-taker</button>
+                <button type="button" data-value="4"   class="option2">Prefers to play it safe</button>
+            </div>
+        </section>
+
+        <section class="three">
+            <h3>Question 3: What describes your work style? </h3>
+            <div class="options">
+                <img src="img/routine.jpg" alt="#">
+                <img src="img/multitasking.avif" alt="#">
+                <div class ="stargroup">
+                    <div class="stars"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="stars"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i></i><i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <button type="button"   data-value ="6"    class="option1">Likes to stick to routine</button>
+                <button type="button"   data-value ="4"    class="option2">Enjoys changing things up</button>
+            </div>
+        </section>
+
+        <section class="four">
+            <h3>Question 4: "Would you rather</h3>
+            <div class="options">
+                <img src="img/woman-working-night.jpg" alt="#">
+                <img src="img/leisurely.jpg" alt="#">
+                <div class ="stargroup">
+                    <div class="stars"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i></i><i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="stars"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <button type="button"   data-value ="4"    class="option1">Spend extra time to make <span>something flawless</span></button>
+                <button type="button"   data-value ="3"    class="option2">Move on once it meets the <span>basic
+                        requirements?</span></button>
+            </div>
+        </section>
+
+        <section class="five">
+            <h3>Question 5: Do you prefer </h3>
+            <div class="options">
+                <img src="img/someone working.avif" alt="#">
+                <img src="img/working alone.avif" alt="#">
+                <div class ="stargroup">
+                    <div class="stars"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="stars"><i class="fa-regular fa-star"></i></i><i class="fa-regular fa-star"></i></div>
+                </div>
+
+                <button type="button"   data-value ="3"    class="option1">Working in a team</button>
+                <button type="button"   data-value ="2"    class="option2">Doing things on your own
+                </button>
+            </div>
+        </section>
+
+        <section class="six">
+            <h3>Question 6: How do you handle conflict? </h3>
+            <div class="options">
+                <img src="img/shoting.avif" alt="#">
+                <img src="img/avoid.avif" alt="#">
+                <div class ="stargroup">
+                    <div class="stars"><i class="fa-regular fa-star star"></i><i class="fa-regular fa-star star"></i>
+                    </div>
+                    <div class="stars"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <button type="button"   data-value ="2"    class="option1"> Confront it directly</button>
+                <button type="button"   data-value ="4"    class="option2">Avoid it or seek compromise</button>
+            </div>
+        </section>
+
+        <section class="seven">
+            <h3>Question 7: What motivates you? </h3>
+            <div class="options">
+                <img src="img/acheive.jpg" alt="#">
+
+                <img src="img/process.jpg" alt="#">
+                <div class ="stargroup">
+                    <div class="stars"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i></i><i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="stars"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <button type="button"   data-value ="4"    class="option1">Achieving goals</button>
+                <button type="button"   data-value ="3"    class="option2"> Enjoying the process</button>
+            </div>
+        </section>
+
+        <section class="eight">
+            <h3>Question 8: How do you approach decisions? </h3>
+            <div class="options">
+                <img src="img/gut.avif" alt="#">
+                <img src="img/analyse.avif" alt="#">
+                <div class ="stargroup">
+                    <div class="stars"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></div>
+                    <div class="stars"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i><i
+                            class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <button type="button"   data-value ="2"    class="option1">Go with your gut</button>
+                <button type="button"   data-value ="3"    class="option2"> Carefully analyze everything</button>
+            </div>
+        </section>
+
+        <section class="nine">
+            <h3>Question 9: Would you rather</h3>
+            <div class="options">
+                <img src="img/reading.jpg" alt="#">
+                <img src="img/movie.avif" alt="#">
+                <div class ="stargroup">
+                    <div class="stars"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i><i
+                            class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="stars"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i><i
+                            class="fa-regular fa-star"></i></i><i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <button type="button"   data-value ="3"    class="option1"> Read Books</button>
+                <button type="button"   data-value ="4"    class="option2">Watch Movies</button>
+            </div>
+        </section>
+
+        <section class="ten">
+            <h3>Question 10: Would you Rather</h3>
+            <div class="options">
+                <img src="img/mark.jpg" alt="#">
+                <img src="img/car.jpg" alt="#">
+                <div class ="stargroup">
+                    <div class="stars"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></div>
+                    <div class="stars"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></div>
+                </div>
+                
+                <button type="button"   data-value ="2"    class="option1">Be rich and famous</button>
+                <button type="button"   value ="4"    class="option2">Be rich and anonymous</button>
+            </div>
+        </section>
+
+        <div id="result"></div>
+    </div>
+</body>
+
+</html>
