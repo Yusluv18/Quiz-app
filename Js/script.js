@@ -7,11 +7,14 @@ $(document).ready(function () {
 
     $(".stars").hide(); // Hide stars initially
 
+
+    // Function to show the current question
     function showQuestion(index) {
         questions.hide();
         $(".stars").hide();
 
-        $(questions[index]).addClass("offscreen").show(); // Position question off-screen
+        $(questions[index]).addClass("offscreen").show(); // Positions the current question off-screen to the right (`offscreen` class) and makes it visible.
+
 
         setTimeout(function () {
             $(questions[index]).removeClass("offscreen").addClass("onscreen"); // Slide in
@@ -78,6 +81,7 @@ $(document).ready(function () {
 
         timerDisplay.text("Quiz Complete!");
         $("#result").html(`<p>${message}</p>`).fadeIn();
+
     }
 
     $(".options button").click(function () {
@@ -85,15 +89,19 @@ $(document).ready(function () {
 
         $(this).siblings(".stargroup").find(".stars").fadeIn(300);
 
-        const starValue = parseInt($(this).attr("data-value"));
-        totalStars += starValue;
 
         $(this).siblings("button").prop("disabled", true);
         $(this).prop("disabled", true);
 
         setTimeout(nextQuestion, 500);
     });
+    $(".opt").click(function () {
 
+        const starValue = parseInt($(this).val());
+        totalStars += starValue;
+        console.log(totalStars)
+
+    });
     showQuestion(currentQuestion);
     startTimer();
 });

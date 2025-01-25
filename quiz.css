@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-    margin:auto;
+    margin: auto;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -60,21 +60,22 @@ button {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-   
+
 }
 
 button:hover {
     background-color: #0056b3;
 }
 
-.option1{
+.option1 {
     margin-left: 17vw;
-    
+
 }
-.option2{
+
+.option2 {
     margin-left: 26vw;
-    
-    
+
+
 }
 
 h3 {
@@ -111,17 +112,37 @@ h3 {
     margin-bottom: 2vh;
     color: gold;
 }
+
 .stars {
     display: none;
 }
 
 .offscreen {
     position: relative;
-    left: 100vw; /* Position off-screen */
+    left: 100vw;
+    /* Position off-screen */
     display: block;
-    transition: left 1s ease-in-out; /* Smooth transition */
+    transition: left 1s ease-in-out;
+    /* Smooth transition */
 }
 
 .onscreen {
-    left: 0; /* Bring to on-screen position */
+    left: 0;
+    /* Bring to on-screen position */
+}
+
+#result {
+    color: white;
+    font-size: large;
+    font-family: cursive;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.699);
+    width: 65vmin;
+    height: 50vmin;
+    text-align: center;
+    align-content: center;
+
+    margin: 70px auto;
+
+    display: none;
 }

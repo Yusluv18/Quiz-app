@@ -29,9 +29,6 @@ Questions slide in and out for a better user experience.
 Stars fade in dynamically when triggered.
 
 
-## Buggs
-- User are still unable to see their personality message yet 
-
 
 
 ## Technologies Used
@@ -58,20 +55,6 @@ Open the index.html file in any modern web browser.
 - Answer each question by clicking on the buttons inside the options.
 - The star rating will appear after interacting with the options.
 - The quiz automatically transitions to the next question after the timer ends or when you answer the question.
-File Structure
-graphql
-Copy
-Edit
-📂 quiz-app/
-├── 📄 index.html          # Main HTML file for the quiz
-├── 📂 css/
-│   └── 📄 style.css       # Stylesheet for the application
-├── 📂 js/
-│   └── 📄 script.js       # Main JavaScript file with jQuery
-├── 📂 assets/
-│   └── 📂 images/         # Optional folder for images
-└── 📄 README.md           # Documentation
-
 
 ## Code Explanation:
 
@@ -102,7 +85,7 @@ Modify the timer duration by changing the timeLeft variable in the script.js fil
 - Styling:
 Change the quiz appearance by editing the style.css file.
 Contributing
-Contributions are welcome! If you'd like to improve the app or add new features, feel free to:
+Contributions are welcome! If you would like to improve the app or add new features, feel free to:
 
 Fork the repository.
 Create a new branch for your changes.
@@ -110,6 +93,8 @@ Submit a pull request with a description of your modifications.
 Demo
 Include screenshots or a GIF of the application to demonstrate its functionality.
 
-License
+
+
+## License
 This project is licensed under the MIT License. Feel free to modify
 
